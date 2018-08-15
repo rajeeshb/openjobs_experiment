@@ -16,6 +16,8 @@ EXPOSE 3000
 
 ########## RAILS ENV ##########
 # SET development or test or production !
+ARG build_without=production
+ENV BUILD_WITHOUT $rails_env
 ARG rails_env=development
 ENV RAILS_ENV $rails_env
 ENV MYSQL_USER root
