@@ -15,7 +15,7 @@ EXPOSE 3000
 
 
 ########## RAILS ENV ##########
-# SET development or test or production
+# SET development or test or production !
 ENV RAILS_ENV development
 ENV MYSQL_USER root
 # Haha dont do this. Should be set at runtime
